@@ -1,0 +1,68 @@
+/* Carbon Ads */
+div#carbonads {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    max-width: 280px;
+    color: #333;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    overflow: hidden;
+    line-height: 16px;
+}
+div#carbonads a {
+	color: #333;
+	font-weight: normal;
+}
+div#carbonads a:hover {
+    text-decoration: none;
+    border: none;
+}
+div#carbonads .carbon-wrap {
+
+}
+div#carbonads .carbon-img {
+	clear: both;
+    float: left;
+    margin-right: 10px;
+}
+div#carbonads a.carbon-poweredby {
+	margin-top: 1px;
+	font-size: 10px;
+	opacity: 0.6;
+	display: block;
+}
+div#carbonads a.carbon-poweredby:hover {
+	opacity: 1;
+}
+#cad-remove {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 24px;
+    color: #777;
+    z-index: 10;
+}
+#cad-remove:before {
+    content: '\00D7';
+    display: inline-block;
+}
+#cad-remove:hover {
+	background-color: #eee;
+}
+@media (max-width: 320px) {
+	div#carbonads {
+		display: none;
+	}
+}
